@@ -1,29 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sularis Studio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
 
-<div class="nav">
-  <a href="index.html">Home</a>
-  <a href="pages/gallery.html">Gallery</a>
-  <a href="pages/about.html">About</a>
-  <a href="pages/pricing.html">Pricing</a>
-  <a href="pages/contact.html">Contact</a>
-</div>
+  <!-- NAVIGATION -->
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="pages/gallery.html">Gallery</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/pricing.html">Pricing</a>
+    <a href="pages/contact.html">Contact</a>
+  </div>
 
-<div class="header">
-  <h1>Sularis Studio</h1>
-  <p>Photography & Visual Storytelling</p>
-</div>
+  <!-- HERO SECTION -->
+  <header class="header">
+    <h1>Sularis Studio</h1>
+    <p>Wedding • Senior • Family Photography</p>
 
-<div class="section">
-  <h2>Capturing moments that matter</h2>
-</div>
+    <div style="margin-top: 30px;">
+      <a href="pages/gallery.html">
+        <button>View Gallery</button>
+      </a>
+    </div>
+  </header>
 
-<footer>© 2026 Sularis Studio</footer>
+  <!-- FEATURE SECTION -->
+  <div class="hero-card">
+    <h2>Capturing the moments that matter most</h2>
+    <p>
+      Photography focused on emotion, connection, and storytelling.
+    </p>
+  </div>
+
+  <!-- SERVICES PREVIEW -->
+  <div class="section">
+    <h2>What I Shoot</h2>
+
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    ">
+
+      <div class="hero-card">
+        <h3>Weddings</h3>
+        <p>Timeless storytelling of your big day.</p>
+      </div>
+
+      <div class="hero-card">
+        <h3>Seniors</h3>
+        <p>Modern portraits that feel authentic.</p>
+      </div>
+
+      <div class="hero-card">
+        <h3>Families</h3>
+        <p>Natural, emotional family moments.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CALL TO ACTION -->
+  <div class="hero-card">
+    <h2>Let’s create something beautiful</h2>
+    <p>Book a session or explore the gallery to get started.</p>
+
+    <div style="margin-top: 20px;">
+      <a href="pages/contact.html">
+        <button>Contact Me</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Sularis Studio
+  </footer>
 
 </body>
 </html>
