@@ -1,204 +1,99 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* GLOBAL CENTERING FIX */
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #fafafa;
   color: #222;
-  line-height: 1.6;
+  margin: 0;
+  text-align: center;
 }
 
-/* NAV */
+/* NAV IMPROVEMENT (button style links) */
 .nav {
   display: flex;
   justify-content: center;
-  gap: 22px;
+  gap: 15px;
   padding: 18px;
-  background: #ffffff;
+  background: #fff;
   border-bottom: 1px solid #eaeaea;
   position: sticky;
   top: 0;
-  z-index: 100;
 }
 
 .nav a {
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 999px;
   text-decoration: none;
-  color: #555;
+  color: #444;
   font-size: 14px;
-  letter-spacing: 1px;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+  background: #fff;
 }
 
 .nav a:hover {
-  color: #000;
+  background: #111;
+  color: #fff;
+  border-color: #111;
 }
 
-/* HEADER */
+/* HEADER / HOME HERO CENTER FIX */
 .header {
-  text-align: center;
-  padding: 80px 20px 40px;
-  background: #ffffff;
+  padding: 100px 20px 60px;
 }
 
 .header h1 {
-  font-size: 44px;
-  letter-spacing: 2px;
-  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .header p {
-  margin-top: 10px;
-  color: #777;
+  color: #666;
   font-size: 16px;
 }
 
-/* HERO (optional use on homepage) */
-.hero {
-  background: #ffffff;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h2 {
-  font-size: 32px;
-  max-width: 700px;
-  margin: auto;
-  font-weight: 400;
-}
-
-.hero p {
-  margin-top: 15px;
-  color: #777;
-}
-
-/* SECTIONS */
+/* HERO TEXT CENTER BOX */
 .section {
-  max-width: 1100px;
+  max-width: 900px;
   margin: auto;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .section h2 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 28px;
-  font-weight: 500;
-}
-
-/* GALLERY (clean airy grid) */
-.gallery {
-  columns: 3;
-  column-gap: 18px;
-}
-
-.gallery img {
-  width: 100%;
-  margin-bottom: 18px;
-  border-radius: 10px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.gallery img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-/* PRICING */
-.pricing {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
-}
-
-.card {
-  background: #ffffff;
-  border: 1px solid #eee;
-  border-radius: 14px;
-  padding: 30px;
-  text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.price {
-  font-size: 32px;
-  margin: 20px 0;
-  color: #111;
-}
-
-.card ul {
-  list-style: none;
+  font-size: 26px;
   margin-bottom: 20px;
-  color: #666;
 }
 
-.card ul li {
-  margin: 8px 0;
+/* OPTIONAL HERO CARD (makes homepage less empty) */
+.hero-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-.card button {
-  padding: 10px 18px;
-  border: none;
+/* BUTTON STYLE (if you use buttons anywhere) */
+button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
   background: #111;
   color: #fff;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.2s ease;
+  border-color: #111;
 }
 
-.card button:hover {
-  background: #333;
-}
-
-/* ABOUT / TEXT */
-.section p {
-  max-width: 700px;
-  margin: auto;
-  text-align: center;
-  color: #555;
-  font-size: 16px;
-}
-
-/* FOOTER */
+/* FOOTER SPACING */
 footer {
-  text-align: center;
-  padding: 40px;
+  margin-top: 80px;
+  padding: 30px;
   color: #888;
   border-top: 1px solid #eee;
-  background: #fff;
-  margin-top: 60px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .gallery {
-    columns: 2;
-  }
-}
-
-@media (max-width: 500px) {
-  .gallery {
-    columns: 1;
-  }
-
-  .header h1 {
-    font-size: 34px;
-  }
-
-  .hero h2 {
-    font-size: 24px;
-  }
 }
