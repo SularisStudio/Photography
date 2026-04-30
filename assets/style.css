@@ -141,7 +141,7 @@ button:hover {
   /* background image */
   background-image: url("../images/home1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
 }
 
 /* dark overlay */
@@ -149,7 +149,7 @@ button:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.15);
 }
 
 /* keeps text above overlay */
