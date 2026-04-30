@@ -135,7 +135,8 @@ button:hover {
   justify-content: center; /* use to be center*/
   text-align: center;
 
-  padding-bottom: 80px;
+   /* title location */
+  padding-bottom: 50px;
   
   position: relative;
   /* background image */
