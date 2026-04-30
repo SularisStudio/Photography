@@ -134,7 +134,10 @@ button:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  
+/* moves text within hero header */
+  padding-top: 80px;
+  
   position: relative;
   color: white;
 
