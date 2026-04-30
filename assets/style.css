@@ -322,3 +322,10 @@ button:hover {
   color: #777;
   margin-bottom: 20px;
 }
+
+
+/* Pricing hero size */
+.pricing-hero {
+  height: 60vh; /* smaller than homepage */
+  background-image: url("../images/pricing.jpg"); /* optional */
+}
