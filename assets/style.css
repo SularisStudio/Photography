@@ -132,11 +132,8 @@ button:hover {
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* use to be center*/
+  justify-content: center; /* use to be center*/
   text-align: center;
-  
-/* moves text within hero header */
-  padding-top: 680px;
   
   position: relative;
   color: white;
@@ -159,6 +156,9 @@ button:hover {
 .hero-content {
   position: relative;
   z-index: 1;
+
+  /* moves text within hero header */
+ transform: translateY(clamp(40px, 8vh, 90px));
 }
 
 .hero-bg h1 {
@@ -169,4 +169,11 @@ button:hover {
 .hero-bg p {
   font-size: 18px;
   opacity: 0.9;
+}
+
+/* MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+  .hero-content {
+    transform: translateY(30px);
+  }
 }
