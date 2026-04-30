@@ -329,3 +329,47 @@ button:hover {
   height: 60vh; /* smaller than homepage */
   background-image: url("../images/pricing.jpg"); /* optional */
 }
+
+/* ADDONS CONTAINER */
+.addons-box {
+  max-width: 1100px;
+  margin: 60px auto;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(0,0,0,0.08);
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+/* GRID INSIDE */
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* INDIVIDUAL ITEM */
+.addon-item h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.addon-item p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.addon-item span {
+  display: block;
+  font-size: 13px;
+  color: #777;
+}
