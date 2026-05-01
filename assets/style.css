@@ -525,6 +525,37 @@ button:hover {
   margin-top: 6px;
 }
 
+input, textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.1);
+
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #111;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 18px;
+}
+
 @media (max-width: 900px) {
 
   .hamburger {
