@@ -25,7 +25,7 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.nav a {
+.nav-links a {
   padding: 10px 18px;
   border-radius: 999px;
   will-change: transform;
@@ -44,7 +44,7 @@ body {
   transition: all 0.25s ease;
 }
 
-.nav a:hover {
+.nav-links a:hover {
   background: rgba(17,17,17,0.85);
   color: #fff;
   border-color: #111;
@@ -53,14 +53,14 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.nav a.active {
+.nav-links a.active {
   background: rgba(17,17,17,0.08);
   border-color: rgba(17,17,17,0.2);
   color: #111;
   font-weight: 600
 }
 
-.nav a.active:hover {
+.nav-links a.active:hover {
   background: rgba(17,17,17,0.12);
 }
 
@@ -380,14 +380,10 @@ button:hover {
   color: #777;
 }
 
-
-
-/* desktop default */
 .hamburger {
   display: none;
 }
 
-/* MOBILE ONLY */
 @media (max-width: 768px) {
 
   .hamburger {
@@ -402,13 +398,41 @@ button:hover {
     position: absolute;
     top: 70px;
     right: 20px;
+
     background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
     padding: 15px;
     border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   }
 
   .nav-links.show {
     display: flex;
+  }
+
+  .header h1 {
+    font-size: 38px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .hero-bg h1 {
+    font-size: 38px;
+  }
+
+  .hero-bg p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 16px;
+  }
+
+  .hero-content-box {
+    padding: 20px 22px;
+    max-width: 90%;
   }
 }
