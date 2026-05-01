@@ -548,7 +548,7 @@ input:focus, textarea:focus {
 
 .checkbox {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 10px;
 
   font-size: 13px;
@@ -564,8 +564,8 @@ input:focus, textarea:focus {
   backdrop-filter: blur(8px);
 }
 
-.checkbox input {
-  margin: 0;
+.checkbox input[type="checkbox"] {
+  width: auto;   /* THIS is the key fix */
   flex-shrink: 0;
 }
 
