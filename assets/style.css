@@ -11,18 +11,16 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  gap: 14px;
 
   display: flex;
-  justify-content: center;
-  gap: 12px;
-  padding: 18px;
+  justify-content: space-between;
+  align-items: center;
 
-  /* glass effect background */
-  background: rgba(255, 255, 255, 0.75);
+  padding: 18px 24px;
+
+  background: rgba(255,255,255,0.75);
   backdrop-filter: blur(10px);
-
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .nav-links a {
