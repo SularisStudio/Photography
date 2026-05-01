@@ -402,4 +402,18 @@ button:hover {
   button {
     padding: 10px 16px;
   }
+
+  .hero-bg h1 {
+  font-size: 38px;
+}
+
+.hero-bg p {
+  font-size: 14px;
+}
+
+.hero-content-box {
+  padding: 20px 22px;
+  max-width: 90%;
+}
+  
 }
