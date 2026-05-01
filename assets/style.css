@@ -438,7 +438,48 @@ button:hover {
   align-self: flex-start;
 }
 
+.contact-card {
+  max-width: 700px;
+  margin: 80px auto;
+}
 
+/* form layout inside bubble */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* inputs inside glass style */
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.1);
+
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+
+  font-size: 14px;
+  outline: none;
+
+  transition: 0.2s ease;
+}
+
+/* focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  border-color: rgba(17,17,17,0.4);
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+/* button consistency */
+.contact-form button {
+  margin-top: 10px;
+}
 
 @media (max-width: 900px) {
 
