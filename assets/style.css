@@ -414,7 +414,8 @@ button:hover {
 
   .hamburger {
     display: block;
-    position: right;
+    position: absolute;
+    right: 24px;
     font-size: 26px;
     cursor: pointer;
   }
