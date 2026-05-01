@@ -417,3 +417,34 @@ button:hover {
 }
   
 }
+
+/* desktop default */
+.hamburger {
+  display: none;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 16px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
