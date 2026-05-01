@@ -410,7 +410,7 @@ button:hover {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   .hamburger {
     display: block;
