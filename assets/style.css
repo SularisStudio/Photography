@@ -481,6 +481,33 @@ button:hover {
   margin-top: 10px;
 }
 
+/* HERO IMAGE SECTION */
+.contact-hero {
+  height: 70vh; /* slightly shorter for contact page */
+  background-image: url("../images/contact.jpg"); /* your photo */
+  background-size: cover;
+  background-position: center;
+}
+
+/* push form below hero */
+.contact-section {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* form bubble sizing */
+.contact-card {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* optional spacing tweak */
+.contact-card h2 {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 900px) {
 
   .hamburger {
