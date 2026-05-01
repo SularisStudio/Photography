@@ -460,6 +460,7 @@ button:hover {
   }
 
   .hero-content-box {
+    padding-bottom: 140px;
     padding: 20px 22px;
     max-width: 90%;
   }
