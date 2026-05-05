@@ -641,6 +641,7 @@ input[type="checkbox"] {
 
 /* HERO IMAGE FOR ABOUT PAGE */
 .about-hero {
+  height: 85vh;
   background-image: url("../images/about-hero.jpg");
 }
 
