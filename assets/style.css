@@ -483,7 +483,7 @@ button:hover {
 
 /* HERO IMAGE SECTION */
 .contact-hero {
-  height: 70vh; /* slightly shorter for contact page */
+  height: 85vh; /* slightly shorter for contact page */
   background-image: url("../images/contact.jpg"); /* your photo */
   background-size: cover;
   background-position: center;
