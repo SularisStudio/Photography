@@ -352,7 +352,7 @@ button:hover {
 
 /* Pricing hero size */
 .pricing-hero {
-  height: 60vh; /* smaller than homepage */
+  height: 85vh; /* smaller than homepage */
   background-image: url("../images/pricing.jpg"); /* optional */
 }
 
